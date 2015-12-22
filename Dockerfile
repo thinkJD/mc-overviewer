@@ -1,4 +1,5 @@
 FROM	debian:jessie-backports
+MAINTAINER	thinkjd@thinkjd.de
 
 # install dependencys
 RUN	apt-get update && apt-get install -y wget
